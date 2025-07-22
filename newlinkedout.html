@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LinkedOut UI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+      background: #fff;
+      color: #000;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .menu-icon {
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: -1px;
+    }
+
+    .logo span {
+      color: black;
+    }
+
+    .auth-buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .auth-buttons button {
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      border: 2px solid black;
+      background-color: white;
+    }
+
+    .auth-buttons .signup {
+      background-color: black;
+      color: white;
+    }
+
+    .content {
+      padding: 2rem 1rem;
+    }
+
+    .content h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .content p {
+      color: #666;
+      margin-bottom: 1.5rem;
+      max-width: 500px;
+    }
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .buttons button {
+      padding: 10px 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #f8f8f8;
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    .buttons .filter {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="menu-icon">&#9776;</div>
+    <div class="logo">LINKEDOUT</div>
+    <div class="auth-buttons">
+      <button class="login">Log in</button>
+      <button class="signup">Sign up</button>
+    </div>
+  </header>
+
+  <div class="content">
+    <h1>Today's Discussions</h1>
+    <p>Join 560k+ entrepreneurs, career enthusiasts to share ideas, help and connect with like-minded people.</p>
+
+    <div class="buttons">
+      <button>Newest</button>
+      <button>Active</button>
+      <button>More ▾</button>
+      <div class="filter">
+        <button>☰ Filter</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
